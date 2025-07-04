@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Arithmetic Calculator</h1>
+
+    <section class="inner">
+        <table class="tb">
+            <tr>
+                <td><label for="x">Enter x - </label></td>
+                <td>
+                    <input type="number" id="x" required>
+                    <div id="er1"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="y">Enter y - </label></td>
+                <td>
+                    <input type="number" id="y" required>
+                    <div id="er2"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="select">Operation - </label></td>
+                <td>
+                    <select id="sel" required>
+                        <option value="" disabled selected>Choose here..</option>
+                        <option value="ad">Addition</option>
+                        <option value="sb">Substraction</option>
+                        <option value="ml">Multiplication</option>
+                        <option value="dv">Divitions</option>
+                    </select>
+                    <div id="er3"></div>
+                </td>
+            </tr>
+        </table>
+        <button type="submit" id="btn">Run</button>
+        <div id="result"></div>
+    </section>
+   
+    <script src="script.js"></script>
+
+</body>
+</html>
+
