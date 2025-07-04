@@ -57,7 +57,3 @@ input[type='number'], select{
     background-color: white;
     color: black;
 }
-
-.addon{
-    display: block !important;
-}
